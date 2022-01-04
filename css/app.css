@@ -11769,4 +11769,112 @@ a:hover, a:active {
   top: 18px;
 }
 
+.event-wrap {
+  margin-top: 40px;
+}
+.event-wrap figure {
+  width: 144px;
+  height: auto;
+}
+.event-wrap figure img {
+  display: block;
+  width: 144px;
+  height: 144px;
+}
+
+.event-content-wrap {
+  width: calc(100% - 180px);
+  margin-top: -10px;
+}
+.event-content-wrap .entry-title a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+}
+.event-content-wrap .posted-date a, .event-content-wrap .cats-links a {
+  display: block;
+  position: relative;
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+  color: #262626;
+}
+.event-content-wrap .posted-date a {
+  padding-right: 14px;
+  margin-right: 14px;
+}
+.event-content-wrap .posted-date a::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 1px;
+  height: 100%;
+  background: #262626;
+}
+.event-content-wrap .entry-content {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #929191;
+}
+.event-content-wrap .entry-footer a {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9B0000;
+  text-decoration: none;
+}
+
+.cause-wrap {
+  margin-top: 50px;
+}
+
+.featured-cause .cause-wrap {
+  padding: 40px 24px;
+  background: #edf3f5;
+}
+.featured-cause .cause-wrap figure img {
+  display: block;
+  width: 100%;
+}
+.featured-cause .cause-content-wrap {
+  width: calc(100% - 280px);
+}
+.featured-cause .cause-content-wrap .entry-title a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.cause-content-wrap .posted-date a, .cause-content-wrap .cats-links a {
+  display: block;
+  position: relative;
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+  color: #262626;
+}
+.cause-content-wrap .posted-date a {
+  padding-right: 14px;
+  margin-right: 14px;
+}
+.cause-content-wrap .posted-date a:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 1px;
+  height: 100%;
+  background: #262626;
+}
+.cause-content-wrap .entry-content {
+  margin-top: 28px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #929191;
+}
+
 /*# sourceMappingURL=app.css.map */

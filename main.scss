@@ -650,3 +650,116 @@ a:hover, a:active { outline: 0px; list-style: none; }
     }
   }
 }
+
+.event-wrap {
+  margin-top: 40px;
+  figure {
+    width: 144px;
+    height: auto;
+    img {
+      display: block;
+      width: 144px;
+      height: 144px;
+    }
+  }
+}
+.event-content-wrap {
+  width: calc(100% - 180px);
+  margin-top: -10px;
+  .entry-title a {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(38, 38, 38);
+  }
+  .posted-date a, .cats-links a {
+    display: block;
+    position: relative;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    color: rgb(38, 38, 38);
+  }
+  .posted-date a {
+    padding-right: 14px;
+    margin-right: 14px;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 1px;
+      height: 100%;
+      background: rgb(38, 38, 38);
+    }
+  }
+  .entry-content {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: rgb(146, 145, 145);
+  }
+  .entry-footer a {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: $primary;
+    text-decoration: none;
+  }
+}
+.cause-wrap {
+  margin-top: 50px;
+}
+.featured-cause {
+  .cause-wrap {
+    padding: 40px 24px;
+    background: rgb(237, 243, 245);
+    figure {
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .cause-content-wrap {
+    width: calc(100% - 280px);
+    .entry-title a {
+      font-size: 18px;
+      font-weight: 600;
+      color: rgb(38, 38, 38);
+    }
+  }
+}
+
+.cause-content-wrap {
+  .posted-date a, .cats-links a {
+    display: block;
+    position: relative;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    color: rgb(38, 38, 38);
+  }
+  .posted-date a {
+    padding-right: 14px;
+    margin-right: 14px;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 1px;
+      height: 100%;
+      background: rgb(38, 38, 38);
+    }
+  }
+  
+  .entry-content {
+    margin-top: 28px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: rgb(146, 145, 145);
+  } 
+}
