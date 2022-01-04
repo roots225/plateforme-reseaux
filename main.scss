@@ -723,7 +723,11 @@ a:hover, a:active { outline: 0px; list-style: none; }
   }
 
   .cause-content-wrap {
-    width: calc(100% - 280px);
+    background-color: transparent;
+    width: 100%;
+    @media screen and (min-width: 993px) {
+      width: calc(100% - 280px);
+    }
     .entry-title a {
       font-size: 18px;
       font-weight: 600;
